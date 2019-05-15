@@ -76,7 +76,7 @@ sudo apt-get install postgresql postgresql-contrib
     - For Mobile
     - For Desktop
   * Data visualization of the stats that we will keep track of
-  * Any other features
-    - MUST ASK Jessie Contour for feedback at contour.j@gmail.com
+  
 <h2>OpenSourceNY App</h2>
+  Made for OSI (Open Source Initiative) and Open Source NYC. Idea was originally by Professor Jessie Contour of Hunter College, contour.j@gmail.com.
 
