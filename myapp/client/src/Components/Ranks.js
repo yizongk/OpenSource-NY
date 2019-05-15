@@ -47,7 +47,7 @@ class Ranks extends Component{
             formatScoreList = this.removeDuplicateAndKeepCount(PRJsonSetScratch);
             
             if( formatScoreList === undefined || formatScoreList === null || formatScoreList.length === 0 ) {
-                console.log("formatScoreList is undeifned, null or size 0");
+                // console.log("formatScoreList is undeifned, null or size 0");
                 return formatScoreList;
             }
 
@@ -56,7 +56,7 @@ class Ranks extends Component{
             });
         }
 
-        console.log(formatScoreList);
+        // console.log(formatScoreList);
         return formatScoreList;
     }
 
@@ -82,14 +82,14 @@ class Ranks extends Component{
             } else {
                 var index = finalRankCount.findIndex( element => (element.name === eachElement.user.login) );
                 if(index === -1) {
-                    console.log("cannot find in finalRankCountArr");
+                    // console.log("cannot find in finalRankCountArr");
                 } else {
-                    console.log("incremented count!");
+                    // console.log("incremented count!");
                     ++finalRankCount[index].count;
                 }
             }
         });
-        console.log(finalRankCount);
+        // console.log("finalRankCount",finalRankCount);
         return finalRankCount;
     }
 
