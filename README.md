@@ -78,5 +78,5 @@ sudo apt-get install postgresql postgresql-contrib
   * Data visualization of the stats that we will keep track of
   
 <h2>OpenSourceNY App</h2>
-  Made for OSI (Open Source Initiative) and Open Source NYC. Idea was originally by Professor Jessie Contour of Hunter College, contour.j@gmail.com.
+  Made for [OSI (Open Source Initiative)](https://opensource.org/) and [Open Source NYC](https://www.meetup.com/Open-Source-NYC/). Idea was originally by Professor Jessie Contour of Hunter College, contour.j@gmail.com.
 
